@@ -1,3 +1,15 @@
-# About Me
+# About Harry 
+# My name is Harry from Vietnam 
 
-Using the resources linked in examples, have a go at making a quick about you page using Markdown.
+Here is some random things about me.
+
+Favourite foods
+---------------
+
+My top 5 dishes:
+1. Bun Bo Hue 
+2. Pho Dac Biet
+3. Banh Mi Sai Gon
+4. Canh chua 
+5. Com Tam
+
