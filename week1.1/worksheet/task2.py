@@ -15,7 +15,7 @@ while x==0:
         money = int(input("please enter the amount you want to save every month: "))
         x = 1
     except ValueError:
-        print("Invalid input, please enter a whole number greater 0!")    
+        print("Invalid input, please enter a whole number greater than 0!")    
 
 # Calculate the total amount of money they will have saved by the end of the year (amount per month multiplied by 12).
 total = money * 12
