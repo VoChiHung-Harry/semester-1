@@ -2,10 +2,16 @@
 
 # We want to read in a text file, and calculate how many words are in it. 
 # You can use any of the .txt files to test this - or even make your own.
-
+words = 0
 # open and read the file
-
+with open('glasses.txt', 'r') as infile:
 # calculate the number of words
+    for line in infile:
+        wordlist = line.split()
+        words = words + len(wordlist)
+print(words)        
+
+        
 # hint: you could use .split() to break up by spaces
 # hint: watch out for empty lines that might give you empty strings
 
