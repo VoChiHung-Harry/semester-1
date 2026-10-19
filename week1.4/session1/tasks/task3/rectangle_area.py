@@ -1,10 +1,12 @@
 
 # function implementation
-
-def rectangle_area( ):  # define suitable input data
+base = int(input())
+height = int(input())
+def rectangle_area(base,height):  # define suitable input data
     # ...               # implement the function
-    return              # return an appropriate value
+    area = 0.5 * base * height
+    return area              # return an appropriate value
 
 # testing the function
 
-print(f"Area is {rectangle_area( )}")   # provide suitable data matching your inputs
+print(f"Area is {rectangle_area(base,height)}")   # provide suitable data matching your inputs
