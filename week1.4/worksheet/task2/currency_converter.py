@@ -17,7 +17,7 @@ def currency_converter(amount, from_currency, to_currency):
         'INR': {'PHP': 0.69, 'CNY': 0.09, 'GBP': 0.01}
     }
     # your code here
-    new_amount = amount * float(conversion_rate[from_currency][to_currency])
+    new_amount = amount * float(conversion_rate[from_currency][to
     return new_amount
 
 _amount = float(input('please enter your amount: '))

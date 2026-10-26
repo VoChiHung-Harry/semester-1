@@ -1,5 +1,4 @@
 # Week 4, Session 2: Task 1
-
 # Define a function circle_area that takes 2 arguments:
 #   (1) radius and
 #   (2) pi_value 
@@ -12,11 +11,11 @@
 # default value to the optional argument pi_value. You can set it to
 # either (1) 3.14, (2) 3.142, (4) 3.1428, or (4) 3.142857 and observed
 # the output produced the the function is used.
-
+pi_value = 3.1428
 
 def circle_area(radius, pi_value):  # assign a default value to pi_value
     # complete the code here
-
+    area = radius * radius * pi_value
     return area
 
 
