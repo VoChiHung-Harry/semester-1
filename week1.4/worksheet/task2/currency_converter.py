@@ -20,12 +20,7 @@ def currency_converter(amount, from_currency, to_currency):
     new_amount = amount * float(conversion_rate[from_currency][to_currency])
     return new_amount
 
-_amount = float(input('please enter your amount: '))
-print('GBP CNY PHP INR')
-f_currency = input('please enter your current currency: ')
-t_currency = input('please enter the currency that you want to convert to: ')
-
-x = currency_converter(_amount, f_currency, t_currency)
+x = currency_converter(101,"GBP","CNY")
 print(x)
 
 # Submit only this file currency_converter.py with the completed function.
