@@ -24,14 +24,23 @@ class Rectangle:
 
     # Implement methods is_square(), area() & perimeter() here
     def is_square(self):
+        """
+        Check if the shape is square
+        """
         if self.width == self.height:
             return True
 
     def area(self):
+        """
+        Find the area
+        """
         area = self.width * self.height
         return area
 
     def perimeter(self):
+        """
+        Find the perimeter
+        """
         perimeter = (self.height + self.width)*2
         return perimeter      
 
