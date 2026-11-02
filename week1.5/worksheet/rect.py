@@ -12,8 +12,10 @@ class Rectangle:
         # raising appropriate exceptions if necessary (see README.md)
         if not isinstance(width,int):
             raise TypeError("Width must be an integer.")
+
         if not isinstance(height,int):
-            raise TypeError("Height must be an integer.")      
+            raise TypeError("Height must be an integer.") 
+
         if width <= 0 or height <= 0:
             raise ValueError("Width and Height must be greater than 0.")
 
@@ -25,10 +27,15 @@ class Rectangle:
         if self.width == self.height:
             return True
 
-     def area(self):
+    def area(self):
         area = self.width * self.height
         return area
 
     def perimeter(self):
         perimeter = (self.height + self.width)*2
-        return perimeter       
+        return perimeter      
+
+rec = Rectangle(3,4)
+print(rec.is_square())
+print(rec.area())
+print(rec.perimeter()) 
