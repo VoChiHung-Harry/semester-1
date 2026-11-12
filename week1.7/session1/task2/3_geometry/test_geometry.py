@@ -17,7 +17,8 @@ def test_point_distance_to():
     
     # complete the implementation for
     # testing distance_to()
-    
+    assert p1.distance() == 0.0
+    assert p2.distance() == 20
 
 # Write test functions to test the __init__(), 
 # area() and perimeter() methods in Circle class

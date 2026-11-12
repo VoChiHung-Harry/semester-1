@@ -1,0 +1,2 @@
+INFO:root:calculate_average(): started
+INFO:root:average before rounding = 87

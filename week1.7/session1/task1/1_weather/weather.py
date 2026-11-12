@@ -1,6 +1,7 @@
 """
 Module of weather-related functions.
 """
+temperature = 15
 
 def comfort_level(temperature):
     """
@@ -13,3 +14,4 @@ def comfort_level(temperature):
         return "HOT"
     else:
         return "OK"
+print(comfort_level(temperature))

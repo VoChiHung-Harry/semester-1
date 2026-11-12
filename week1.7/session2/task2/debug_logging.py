@@ -20,6 +20,7 @@ def calculate_average(scores):
     average = total_score // total_assignments
     
     # add a debug logging here
+    logger.info(f"average before rounding = {average}")
     
     return round(average,2)
 
